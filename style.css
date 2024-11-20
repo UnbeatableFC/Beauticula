@@ -191,6 +191,13 @@
     padding: 10px;
     border-radius: 5px;
     margin-right: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+    
+}
+
+.headbtn:hover {
+    background: #FFC0CB;
 }
 
 .headbtn a {
@@ -237,6 +244,11 @@
     padding: 10px;
     border-radius: 5px;
     margin-right: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.herotext button:hover {
+    background: #FFC0CB;
 }
 
 .herotext button a {
@@ -605,11 +617,21 @@
     padding: 10px;
     border-radius: 5px;
     margin-right: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.booking:hover {
+    background: #FFC0CB;
 }
 
 .booking a {
     text-decoration: none;
     color: white;
+}
+
+.booking a:hover {
+    color: black;
 }
 
 /* FOOTER */
@@ -664,11 +686,17 @@
 .treat_nav ul li {
     list-style: none;
     line-height: 1.7;
+    transition: all 0.3s;
 }
 
 .treat_nav ul li a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
+}
+
+.treat_nav ul li a:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .one{
@@ -681,7 +709,12 @@
     gap: 10px;
 }
 
-.number  p a{
+.number p a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
+}
+
+.number p a:hover{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
 }
