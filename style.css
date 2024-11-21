@@ -148,6 +148,10 @@
     align-items: center;    
 }
 
+.ham{
+    display: none;
+}
+
 .logo {
     display: flex;
 }
@@ -166,6 +170,7 @@
 .nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav ul {
@@ -177,11 +182,18 @@
 .nav ul li {
     margin-right: 15px;
     list-style: none;
+    transition: all 0.3s;
 }
 
 .nav ul li a {
     text-decoration: none;
     color: #000;
+}
+
+.nav ul li:hover {
+    background: #FFC0CB;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 .headbtn {
@@ -727,6 +739,9 @@
         flex-wrap: wrap;
     }
 
+    .ham {
+        display: none;
+    }
     .herotext {
         flex: 1;
         margin-right: 10px;
@@ -798,6 +813,19 @@
         display: none;
     }
 
+    .ham {
+        display: inline;
+        background: #9D5662;
+        padding: 10px;
+        border-radius: 100%;
+        color: rgba(255, 255, 255, 0.8);
+        transition: all 0.3s;
+    }
+
+    .ham:hover {
+        background: #FFC0CB;
+        color: rgba(0, 0, 0, 0.8);
+    }
     .hero {
         flex-direction: column;
     }
@@ -894,5 +922,114 @@
 }
 
 @media (max-width: 425px) {
-    
+    .nav {
+        display: none;
+    }
+
+    .ham {
+        display: inline;
+        background: #9D5662;
+        padding: 10px;
+        border-radius: 100%;
+        color: rgba(255, 255, 255, 0.8);
+        transition: all 0.3s;
+    }
+
+    .ham:hover {
+        background: #FFC0CB;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    .hero {
+        flex-direction: column;
+    }
+
+    .flower {
+        display: none;
+    }
+
+    .choose_row {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .partners h2 {
+        font-size: 30px;
+    }
+
+    .testimonial_row {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .testimonial_tab:last-child {
+        display: none;
+    }
+
+    .team_row {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .team {
+        margin-left: 0;
+    }
+
+    .team_img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .foot_two p {
+        font-size: 13px;
+    }
+
+    .treat_nav ul li{
+        font-size: 13px;
+    }
+
+    .number i{
+        font-size: 14px;
+    }
+
+    .number p {
+        font-size: 14px;
+    }
+
+    .one {
+        font-size: 20px;
+    }
+
+    .double {
+        display: none;
+    }
+
+    .treatment_row {
+        gap: 7px;
+    }
+
+    .treatment_head h3{
+        font-size: 24px;
+    }
+
+    .arrow {
+        font-size: 20px;
+    }
+
+    .arrow-button {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .team_head {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+    }
+
+    .team_head h3 {
+        font-size: 24px;
+    }
 }
