@@ -817,8 +817,8 @@
         display: none;
     }
 
-    .ham {
-        display: inline;
+    .header i {
+        display: flex;
         background: #9D5662;
         padding: 10px;
         border-radius: 100%;
@@ -930,7 +930,7 @@
         display: none;
     }
 
-    .ham {
+    .header i {
         display: inline;
         background: #9D5662;
         padding: 10px;
