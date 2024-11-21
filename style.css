@@ -148,7 +148,11 @@
     align-items: center;    
 }
 
-.ham{
+.header i {
+    display: none;
+}
+
+.ham {
     display: none;
 }
 
