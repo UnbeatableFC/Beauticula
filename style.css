@@ -145,7 +145,11 @@
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8); 
+    padding-bottom: 5px;
+    box-shadow: 0 8px 18px #FFD3DB;
+    margin-bottom: 13px;
 }
 
 .header i {
@@ -832,6 +836,7 @@
     }
     .hero {
         flex-direction: column;
+        gap: 20px;
     }
 
     .flower {
@@ -923,6 +928,58 @@
     .team_head h3 {
         font-size: 24px;
     }
+
+    .abouttext p {
+        font-size: 14px;
+    }
+
+    .abouttext button {
+        margin-left: 100px;
+        /* margin-right: auto; */
+    }
+
+    .choose_tab p {
+        font-size: 14px;
+    }
+
+    .head_tag p {
+        font-size: 13px;
+    }
+
+    .team {
+        margin-bottom: 0;
+    }
+    .team_row {
+        gap: 10px;
+    }
+
+    .team_tab img {
+        width: 220px;
+        height: 320px;
+    }
+
+    .book {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .book_text h2 {
+        text-align: center;
+    }
+
+    .book_text p {
+        text-align: center;
+    }
+    .book_button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer {
+        padding-left: auto;
+        padding-right: auto;
+    }
+
 }
 
 @media (max-width: 425px) {
@@ -945,6 +1002,7 @@
     }
     .hero {
         flex-direction: column;
+        gap: 20px;
     }
 
     .flower {
@@ -1036,4 +1094,47 @@
     .team_head h3 {
         font-size: 24px;
     }
+
+    .abouttext p {
+        font-size: 15px;
+    } 
+
+    .abouttext button {
+        margin-left: 100px;
+        /* margin-right: auto; */
+    }
+
+    .choose_tab p {
+        font-size: 15px;
+    }
+
+    .head_tag p {
+        font-size: 13px;
+    }
+
+    .team_tab img {
+        width: 220px;
+        height: 320px;
+    }
+
+    .team_row {
+        gap: 10px;
+    }
+
+    .book {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .book_text h2 {
+        text-align: center;
+    }
+
+    .book_text p {
+        text-align: center;
+    }
+    .book_button {
+        margin-left: auto;
+        margin-right: auto;
+    } 
 }
