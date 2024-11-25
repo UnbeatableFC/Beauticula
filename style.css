@@ -1017,6 +1017,29 @@
     .choose_row {
         flex-direction: column;
     }
+
+    .team_head h3 {
+        text-align: center;
+    }
+
+    .hero {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .arrows {
+        flex-direction: row;
+        margin-right: 10px;
+    }
+
+    .about {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .abouttext h2 {
+        text-align: center;
+    }
 }
 @media (max-width: 513px) {
     .nav {
