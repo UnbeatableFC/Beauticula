@@ -981,8 +981,31 @@
     }
 
 }
+@media (max-width: 675px) {
+    .nav {
+        display: none;
+    }
 
-@media (max-width: 425px) {
+    .header i {
+        display: inline;
+        background: #9D5662;
+        padding: 10px;
+        border-radius: 100%;
+        color: rgba(255, 255, 255, 0.8);
+        transition: all 0.3s;
+    }
+
+    .ham:hover {
+        background: #FFC0CB;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    .testimonial_row {
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+}
+@media (max-width: 513px) {
     .nav {
         display: none;
     }
