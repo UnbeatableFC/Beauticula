@@ -1004,6 +1004,19 @@
         flex-wrap: wrap;
         /* flex-direction: column; */
     }
+
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contact_info{
+        gap: 5px;
+    }
+
+    .choose_row {
+        flex-direction: column;
+    }
 }
 @media (max-width: 513px) {
     .nav {
